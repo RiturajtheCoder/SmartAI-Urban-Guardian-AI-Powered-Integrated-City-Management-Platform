@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SmartAI Urban Guardian</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background:#f5f7fa;
+            margin:0;
+        }
+
+        header{
+            background:#0f172a;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        .container{
+            padding:20px;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2{
+            margin-top:0;
+        }
+
+        .good{
+            color:green;
+            font-weight:bold;
+        }
+
+        .warning{
+            color:orange;
+            font-weight:bold;
+        }
+
+        .danger{
+            color:red;
+            font-weight:bold;
+        }
+
+        button{
+            padding:10px 15px;
+            border:none;
+            background:#2563eb;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:10px;
+            margin-top:5px;
+            margin-bottom:10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SmartAI Urban Guardian</h1>
+    <p>AI-Powered Integrated City Management Platform</p>
+</header>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="card">
+<h2>Traffic Status</h2>
+<p class="warning">Moderate Congestion</p>
+<p>AI predicts heavy traffic near City Center in 45 mins.</p>
+</div>
+
+<div class="card">
+<h2>Air Quality</h2>
+<p class="good">AQI: 52 (Good)</p>
+</div>
+
+<div class="card">
+<h2>Flood Risk</h2>
+<p class="danger">High Risk Zone Detected</p>
+<p>Alert issued for Ward 15.</p>
+</div>
+
+<div class="card">
+<h2>Energy Usage</h2>
+<p>Current Consumption: 72%</p>
+</div>
+
+<div class="card">
+<h2>Waste Collection</h2>
+<p>89% bins operational</p>
+</div>
+
+<div class="card">
+<h2>Emergency Alerts</h2>
+<p>2 incidents reported today</p>
+</div>
+
+</div>
+
+<br>
+
+<div class="card">
+<h2>Citizen Report Portal</h2>
+
+<input type="text" placeholder="Issue Title">
+
+<textarea rows="5"
+placeholder="Describe the issue">
+</textarea>
+
+<button>Submit Report</button>
+
+</div>
+
+<br>
+
+<div class="card">
+<h2>AI Insights</h2>
+
+<ul>
+<li>Traffic congestion expected near Market Road at 6 PM.</li>
+<li>Flood probability: 78% in low-lying zones.</li>
+<li>Air pollution hotspot detected near Industrial Area.</li>
+<li>Recommended waste collection route updated.</li>
+</ul>
+
+</div>
+
+</div>
+
+</body>
+</html>
